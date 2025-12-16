@@ -1,0 +1,377 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roshni | Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { background: #f5f5f5; color: #333; }
+    header { background: #6a0dad; color: white; padding: 40px 20px; text-align: center; }
+    header h1 { font-size: 2.2rem; }
+    header p { margin-top: 10px; }nav { background: #fff; padding: 10px; text-align: center; position: sticky; top: 0; }
+nav a { margin: 0 12px; text-decoration: none; color: #6a0dad; font-weight: bold; }
+
+section { padding: 40px 20px; max-width: 900px; margin: auto; }
+h2 { color: #6a0dad; margin-bottom: 15px; }
+
+.skills span {
+  display: inline-block;
+  background: #e6d6f3;
+  padding: 8px 12px;
+  margin: 6px;
+  border-radius: 20px;
+}
+
+.projects .card {
+  background: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background: #6a0dad;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+  header h1 { font-size: 1.8rem; }
+  nav a { display: inline-block; margin: 8px; }
+}
+
+  </style>
+</head>
+<body>  <header>
+    <h1>My Portfolio</h1>
+  </header>  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>  <section id="about">
+    <h2>About Me</h2>
+    <p><!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roshni | Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { background: #f5f5f5; color: #333; }
+    header { background: #6a0dad; color: white; padding: 40px 20px; text-align: center; }
+    header h1 { font-size: 2.2rem; }
+    header p { margin-top: 10px; }nav { background: #fff; padding: 10px; text-align: center; position: sticky; top: 0; }
+nav a { margin: 0 12px; text-decoration: none; color: #6a0dad; font-weight: bold; }
+
+section { padding: 40px 20px; max-width: 900px; margin: auto; }
+h2 { color: #6a0dad; margin-bottom: 15px; }
+
+.skills span {
+  display: inline-block;
+  background: #e6d6f3;
+  padding: 8px 12px;
+  margin: 6px;
+  border-radius: 20px;
+}
+
+.projects .card {
+  background: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+#education {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+#education h2 {
+  color: #6a0dad;
+  margin-bottom: 20px;
+}
+
+.edu-item {
+  background: #ffffff;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+.edu-item h3 {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.edu-item p {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.edu-item span {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+#education hr {
+  border: none;
+  height: 1px;
+  background: #ddd;
+  margin: 20px 0;
+}
+
+#certifications {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+#certifications h2 {
+  color: #6a0dad;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+#certifications ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#certifications li {
+  background: #ffffff;
+  padding: 15px 20px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  font-size: 1rem;
+  color: #333;
+}
+
+#certifications li strong {
+  color: #6a0dad;
+}
+
+#certifications li:hover {
+  transform: translateY(-3px);
+  transition: 0.3s ease;
+}
+#soft-skills {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+#soft-skills h2 {
+  color: #6a0dad;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+#soft-skills ul {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+#soft-skills li {
+  background: #ffffff;
+  padding: 12px 18px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  font-size: 1rem;
+  color: #333;
+}
+
+#soft-skills li::before {
+  content: "✔ ";
+  color: #6a0dad;
+  font-weight: bold;
+}
+/* Container styling */
+#languages {
+  background-color: #f0f8ff; /* Soft light blue background */
+  padding: 20px 30px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 30px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+/* Heading styling */
+#languages h2 {
+  color: #0077b6; /* Blue color for heading */
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+/* List styling */
+#languages ul {
+  list-style: none; /* Remove default bullets */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around; /* Spread items evenly */
+}
+
+/* List item styling */
+#languages ul li {
+  background-color: #caf0f8; /* Slightly lighter blue */
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: 500;
+  color: #023e8a;
+  transition: transform 0.3s, background-color 0.3s;
+  cursor: default;
+}
+
+/* Hover effect */
+#languages ul li:hover {
+  background-color: #90e0ef;
+  transform: translateY(-3px);
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+  header h1 { font-size: 1.8rem; }
+  nav a { display: inline-block; margin: 8px; }
+}
+
+  </style>
+</head>
+    <p>My name is Roshni Shaw, and I am currently pursuing BCA. I am in my second year and will be moving into the third year soon. I have a genuine interest in web development and enjoy learning how websites are built and designed. I have practical knowledge of HTML and CSS, and I use basic JavaScript to add simple interactivity to web pages. I also have experience with Python and understand basic programming concepts.
+
+Through my coursework and self-practice, I am gradually improving my technical and problem-solving skills. I like working on small projects as they help me understand concepts better and gain confidence. I am always willing to learn new technologies, take guidance, and improve myself..</p>
+  </section>  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Basic JavaScript</span>
+      <span>Python</span>
+      <span>DSA</span>
+      <span>c programming</span>
+    </div>
+  </section> 
+  <section id="education">
+  <h2>🎓 Education</h2>
+
+  <div class="edu-item">
+    <h3>Bachelor of Computer Applications (BCA)</h3>
+    <p>Institute of Advanced Education & Research (IAER)</p>
+    <span>Expected Graduation: 2028</span>
+  </div>
+
+  <hr>
+
+  <div class="edu-item">
+    <h3>Higher Secondary (Class XII)</h3>
+    <p>Central Model School</p>
+    <span>Passed: 2024</span>
+  </div>
+
+  <hr>
+
+  <div class="edu-item">
+    <h3>Secondary (Class X)</h3>
+    <p>National High School</p>
+    <span>Passed: 2022</span>
+  </div>
+</section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="card">
+<ul>
+  <li><strong>Temperature Forecast Visualization:</strong> Data analysis and visualization of temperature trends.</li>
+  <li><strong>AI Chatbot:</strong> Basic chatbot with conversational logic.</li>
+  <li><strong>Heart Disease Prediction:</strong> Machine learning–based health prediction system.</li>
+  <li><strong>Report Project:</strong> Technical documentation and analysis report.</li>
+</ul>
+
+    </div>
+    <section id="certifications">
+  <h2>Certifications</h2>
+  <ul>
+    <li>
+      <strong>Python Programming</strong> – CodTech IT Solutions
+    </li>
+
+    <li>
+      <strong>Technology Consulting Virtual Experience</strong> – Deloitte
+    </li>
+  </ul>
+</section>
+
+  </section> 
+  <section id="soft-skills">
+  <h2>Soft Skills</h2>
+  <ul>
+    <li>Willingness to learn</li>
+    <li>Good communication skills</li>
+    <li>Time management</li>
+    <li>Problem-solving</li>
+    <li>Teamwork</li>
+    <li>Adaptability</li>
+  </ul>
+</section>
+<section id="languages">
+  <h2>Languages</h2>
+  <ul>
+    <li>English</li>
+    <li>Hindi</li>
+    <li>Bengali</li>
+  </ul>
+</section>
+
+ <section id="contact">
+    <h2>Contact Me</h2>
+      <p>
+📞 Phone: +919876319044<br>
+📧 Email: roshnishaw@123email.com<br>
+📍 Location: Kolkata, West Bengal, India</p>
+  </section>  <footer>
+    <p>© 2025 Roshni | Portfolio</p>
+  </footer>  <script>
+  </script></body>
+</html
